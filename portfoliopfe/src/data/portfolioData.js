@@ -1,55 +1,55 @@
 // src/data/portfolioData.js
 const portfolioData = {
   personal: {
-    name: "Seu Nome Completo",
+    name: "Vinicius Miranda",
     title: "Desenvolvedor Full Stack",
-    bio: "Desenvolvedor apaixonado por criar soluções inovadoras e experiências digitais incríveis. Especializado em React, Next.js e tecnologias modernas.",
-    email: "seuemail@exemplo.com",
-    phone: "(81) 99999-9999",
+    bio: "Tenho 21 anos, moro em Recife e sou apaixonado por tecnologia.",
+    email: "viniciussmirandacontato@gmail.com",
+    phone: "(81) 98610-3538",
     location: "Recife, PE",
-    github: "seu-usuario",
-    linkedin: "seu-usuario",
-    photo: "https://via.placeholder.com/300x300?text=Sua+Foto"
+    github: "viniciussmiranda",
+    linkedin: "viniciussmiranda",
+    photo: "/assets/minhafoto.jpg"
   },
   
   education: [
     {
-      institution: "Universidade Federal de Pernambuco",
-      degree: "Bacharelado em Ciência da Computação",
-      period: "2020 - 2024",
-      description: "Formação completa em desenvolvimento de software, algoritmos e estruturas de dados."
+      institution: "UNICAP",
+      degree: "Sistemas para Internet",
+      period: "2024 - 2026",
+      description: "Em formação"
     },
     {
-      institution: "Curso Técnico",
-      degree: "Técnico em Informática",
-      period: "2018 - 2020",
-      description: "Base sólida em programação, redes e sistemas operacionais."
+      institution: "IFPE",
+      degree: "Técnico em eletrônica",
+      period: "2018 - 2022",
+      description: "Possuo experiência sólida em Internet das Coisas (IoT)."
     }
   ],
   
   experience: [
     {
-      company: "Tech Solutions Inc.",
-      role: "Desenvolvedor Full Stack",
-      period: "Jan 2023 - Presente",
-      description: "Desenvolvimento de aplicações web escaláveis usando React, Node.js e PostgreSQL. Liderança técnica em projetos de grande impacto.",
-      technologies: ["React", "Node.js", "PostgreSQL", "AWS"]
+      company: "Grupo Moura",
+      role: "Estagiário de Infraestrutura e Redes",
+      period: "Mar 2025 - Presente",
+      description: "Atuo com firewall e monitoramento NOC utilizando as ferramentas Zabbix e Grafana",
+      technologies: ["Zabbix", "Grafana", "Firewall", "Python"]
     },
     {
-      company: "StartupXYZ",
-      role: "Desenvolvedor Front-end Jr.",
-      period: "Jun 2021 - Dez 2022",
-      description: "Criação de interfaces responsivas e interativas. Colaboração com equipe de design para implementar experiências de usuário excepcionais.",
-      technologies: ["React", "TypeScript", "Tailwind CSS"]
+      company: "Parlacom Telecom M2M & IoT",
+      role: "Técnico em eletrônica",
+      period: "Jul 2023 - Out 2024",
+      description: "Desenvolvedor de soluções IoT",
+      technologies: ["PHP", "IoT", "JavaScript"]
     }
   ],
   
   technologies: {
-    frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5", "CSS3"],
-    backend: ["Node.js", "Express", "Python", "Django"],
+    frontend: ["React", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
+    backend: ["Node.js", "Java", "Python", "C++"],
     database: ["PostgreSQL", "MongoDB", "MySQL"],
     tools: ["Git", "Docker", "VS Code", "Figma"],
-    apis: ["GitHub API", "RESTful APIs", "GraphQL"]
+    apis: ["GitHub API", "RESTful APIs"]
   }
 };
 

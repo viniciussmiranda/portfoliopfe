@@ -16,8 +16,7 @@ export default function Navigation({ currentPage, setCurrentPage }) {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="font-bold text-xl flex items-center gap-2">
-            <Code className="w-6 h-6" style={{ color: '#6fa9ce' }} />
-            <span>Portfolio</span>
+            <span>Vinicius Miranda</span>
           </div>
           <div className="flex gap-1">
             {navItems.map(item => {

@@ -36,7 +36,7 @@ export default function ProjectsPage() {
           Projetos Desenvolvidos
         </h1>
         <p className="mb-8" style={{ color: '#757575' }}>
-          Integrado com GitHub API - Exibindo meus repositórios mais recentes
+          Integrado com GitHub API, exibindo meus repositórios mais recentes!!
         </p>
         
         {loading ? (

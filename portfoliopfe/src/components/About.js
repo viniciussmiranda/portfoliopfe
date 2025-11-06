@@ -97,32 +97,6 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-
-        <div className="mt-8 text-white rounded-xl shadow-lg p-8" style={{ backgroundColor: '#6fa9ce' }}>
-          <h3 className="text-2xl font-bold mb-4">Módulos Utilizados neste App</h3>
-          <ul className="space-y-2">
-            <li className="flex items-center gap-2">
-              <ChevronRight className="w-5 h-5" />
-              <strong>React 18</strong> - Biblioteca principal para construção da UI
-            </li>
-            <li className="flex items-center gap-2">
-              <ChevronRight className="w-5 h-5" />
-              <strong>Next.js 15</strong> - Framework React para produção
-            </li>
-            <li className="flex items-center gap-2">
-              <ChevronRight className="w-5 h-5" />
-              <strong>Lucide React</strong> - Ícones modernos e elegantes
-            </li>
-            <li className="flex items-center gap-2">
-              <ChevronRight className="w-5 h-5" />
-              <strong>GitHub API</strong> - Integração para exibir repositórios automaticamente
-            </li>
-            <li className="flex items-center gap-2">
-              <ChevronRight className="w-5 h-5" />
-              <strong>Tailwind CSS</strong> - Framework CSS para estilização responsiva
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
   );
